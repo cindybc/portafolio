@@ -1,0 +1,80 @@
+
+@media (max-width: 534px){
+    header{
+	    height: 60vh !important;
+	    .nombre{
+            width: 100%;
+            left: 0;
+            top: 60%;
+            h2{
+            	font-size: 35px;
+            }
+        }
+    }
+    h3{
+    	margin-bottom: 1rem;
+    } 
+    #sobre-mi{
+    	margin: 0 6%;
+    	padding: 25% 0;
+        .perfil{
+            height: 42vh;
+        }
+    } 
+    #habilidades{
+    	padding: 20% 0;
+    	.rotate{
+	        margin-bottom: 10px;
+        }
+    } 
+
+    #portafolio{
+    	padding: 20% 0;	
+    	.cont-port{
+    	    img{
+	            width: 100%;
+            }
+        }
+        .capa{
+            h6{
+                font-size: 1rem  !important;
+            }
+            p, ul li{
+                font-size: 0.6rem !important;
+            }
+            .pagina, .github{
+                margin: 20px 1px !important;
+            }
+        }
+    }
+
+    #contacto{
+         padding: 15% 0;
+    	.contact-icon{
+    		margin-bottom: 20px;
+    	}
+        .contenidoRedes{
+            margin-top: 0;
+            border: none;
+        }
+    }
+}
+
+@media (min-width: 534px) and (max-width: 1024px){
+    .capa{
+            h6{
+                font-size: 0.7rem  !important;
+            }
+            p, ul li, ul i{
+                font-size: 0.5rem !important;
+            }
+            ul{
+                margin: 5px !important;
+            }
+            .pagina, .github{
+                margin: 20px 1px !important;
+                font-size: 5px !important;
+            }
+        }
+}
+
